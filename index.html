@@ -16,22 +16,28 @@
       .font-bebas {
         font-family: "Bebas neue", sans-serif;
       }
+
+      .font-roboto {
+        font-family: "Roboto", sans-serif;
+      }
     </style>
   </head>
 
   
   <body class="bg-slate-200">
-    <header class="bg-amber-100 
-                          px-32
+    <header class="bg-amber-100
+                          px-4  
+                          md:px-32
                            pt-5
-                            pb-8">
+                            pb-8
+                              py-20">
       <!-- Nav section -->
-      <nav class="flex justify-between pb-10">
+      <nav class="flex flex-col  justify-between pb-10">
         <div>
           <h3 ><span>Penguin </span>Fashion</h3>
         </div>
 
-        <div class="space-x-10">
+        <div class="space-x-10 flex flex-col">
           <a href="">Home</a>
           <a href="">Product</a>
           <a href="">About Us</a>
@@ -40,18 +46,19 @@
       </nav>
 
       <!-- Banner section -->
-      <div class="flex
+      <div class="flex 
+                  flex-col
+                    md:flex-row 
                     justify-between 
-                      items-center">
-        
-        <div>
+                      items-center"> <!--  flex-col for small device; md:flex-row for dedium or large device-->
+          <div>
+
+
           <h1 class="text-7xl">
             <span class="text-amber-500 uppercase">Be the Penguines</span>  <!-- for customised color of the text "text-[hexa-code] " -->
             <br/>
             <span>OF WINTER</span>
           </h1>
-
-
 
           <p class="mt-1">
             Lorem Ipsum is simply dummy text of the printing <br />
@@ -97,18 +104,27 @@
     <main class="max-w-7xl mx-auto">
       <!--  the max-w-7xl class ensures that the content doesn't stretch too wide on large screens, while the mx-auto class centers the content horizontally within its parent container creating a visually pleasing and responsive layout.-->
       <section class="py-20 pl-14">
-        <h3 class="text-5xl font-bebas">WOMAN JACKET</h3>
-        <div class="flex gap-20 mt-12">
+        <h3 class="text-5xl font-bebas">WOMEN JACKET</h3>
+        
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-7 mt-12 font-roboto">
+          
+          
           <!-- Jacket 1 -->
-          <div class="w-80 bg-slate-400 rounded-2xl">
-            <div class="bg-[#F1F1F1] pl-12 pt-5 pb-5 pr-10 rounded-2xl">
+          
+          <div class="w-80 bg-slate-400 rounded-2xl space-y-4 drop-shadow-lg">
+            <div class="bg-[#F1F1F1] p-5 pl-12 pt-5 pb-5 pr-10 rounded-2xl">
               <img src="./images/jacket-1.png" alt="" />
             </div>
+
+
             <h4 class="text-2xl">Yellow Coat Jacket</h4>
             <p>
               Lorem Ipsum is simply dummy text of the <br />
               printing and typesetting industry.
             </p>
+
+
 
             <div class="flex items-center gap-20">
               <h3 class="text-orange-500 text-4xl font-black">$234</h3>
@@ -119,10 +135,13 @@
                 BUY NOW
               </button>
             </div>
+
+
+
           </div>
 
           <!-- Jacket 2 -->
-          <div class="w-80  bg-slate-400 rounded-2xl">
+          <div class="w-80  bg-slate-400 rounded-2xl space-y-4 drop-shadow-lg">
             <div class="bg-[#F1F1F1] pl-12 pt-5 pb-5 pr-10 rounded-2xl">
               <img src="./images/jacket-2.png" alt="" />
             </div>
@@ -145,7 +164,7 @@
           </div>
 
           <!-- jacket 3 -->
-          <div class="w-80  bg-slate-400 rounded-2xl">
+          <div class="w-80  bg-slate-400 rounded-2xl space-y-4 drop-shadow-lg">
             <div class="bg-[#F1F1F1] pl-12 pt-5 pb-5 pr-10 rounded-2xl">
               <img src="./images/jacket-3.png" alt="" />
             </div>
@@ -170,7 +189,7 @@
       </section>
 
     <section class="py-20 pl-14">
-        <h3 class="text-5xl font-bebas">WOMAN JACKET</h3>
+        <h3 class="text-5xl font-bebas">Men JACKET</h3>
         <div class="flex gap-20 mt-5">
           <!-- Jacket 1 -->
           <div class="w-80  bg-slate-400 rounded-2xl">
