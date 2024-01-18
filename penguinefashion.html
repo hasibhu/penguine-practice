@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penguine Fashion</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@800&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"/>
+
+    <style>
+      .font-bebas {
+        font-family: "Bebas neue", sans-serif;
+      }
+    </style>
+  </head>
+
+  
+  <body class="bg-slate-200">
+    <header class="bg-amber-100 
+                          px-32
+                           pt-5
+                            pb-8">
+      <!-- Nav section -->
+      <nav class="flex justify-between pb-10">
+        <div>
+          <h3 ><span>Penguin</span> Fashion</h3>
+        </div>
+
+        <div class="space-x-10">
+          <a href="">Home</a>
+          <a href="">Product</a>
+          <a href="">About Us</a>
+          <a href="">Contact US</a>
+        </div>
+      </nav>
+
+      <!-- Banner section -->
+      <div class="flex
+                    justify-between 
+                      items-center">
+        
+        <div>
+          <h1 class="text-7xl">
+            <span class="text-amber-500 uppercase">Be the Penguines</span>  <!-- for customised color of the text "text-[hexa-code] " -->
+            <br/>
+            <span>OF WINTER</span>
+          </h1>
+
+
+
+          <p class="mt-1">
+            Lorem Ipsum is simply dummy text of the printing <br />
+            and typesetting industry.
+          </p>
+
+          <button
+            class="bg-gradient-to-r from-[#A4BC46] to-[#85A019]
+                     py-3.5
+                      px-5
+                       rounded-xl
+                        text-white mt-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6 inline"  
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+              />
+            </svg>
+
+            BUY NOW
+          </button>
+        
+        
+        
+        
+        </div>
+
+
+        <div>
+          <img src="/images/model.png" alt="" width: 549px; height: 559px;
+          flex-shrink: 0;>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto">
+      <!--  the max-w-7xl class ensures that the content doesn't stretch too wide on large screens, while the mx-auto class centers the content horizontally within its parent container creating a visually pleasing and responsive layout.-->
+      <section class="py-20 pl-14">
+        <h3 class="text-5xl font-bebas">WOMAN JACKET</h3>
+        <div class="flex gap-20 mt-12">
+          <!-- Jacket 1 -->
+          <div class="w-80 bg-slate-400 rounded-2xl">
+            <div class="bg-[#F1F1F1] pl-12 pt-5 pb-5 pr-10 rounded-2xl">
+              <img src="/images/jacket-1.png" alt="" />
+            </div>
+            <h4 class="text-2xl">Yellow Coat Jacket</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the <br />
+              printing and typesetting industry.
+            </p>
+
+            <div class="flex items-center gap-20">
+              <h3 class="text-orange-500 text-4xl font-black">$234</h3>
+              <!--very bold and heavy font weight, indicated by "font-black" -->
+              <button
+                class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-3.5 px-5 rounded-xl text-white mt-3 flex">
+    
+                BUY NOW
+              </button>
+            </div>
+          </div>
+
+          <!-- Jacket 2 -->
+          <div class="w-80  bg-slate-400 rounded-2xl">
+            <div class="bg-[#F1F1F1] pl-12 pt-5 pb-5 pr-10 rounded-2xl">
+              <img src="/images/jacket-2.png" alt="" />
+            </div>
+            <h4 class="text-2xl">Ladies Jacket</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the <br />
+              printing and typesetting industry.
+            </p>
+            <div class="flex items-center gap-20">
+              <h3 class="text-orange-500 text-4xl font-black">$234</h3>
+              <!--very bold and heavy font weight, indicated by "font-black" 
+          -->
+              <button
+                class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-3.5 
+          px-5 rounded-xl text-white mt-3 flex"
+              >
+                BUY NOW
+              </button>
+            </div>
+          </div>
+
+          <!-- jacket 3 -->
+          <div class="w-80  bg-slate-400 rounded-2xl">
+            <div class="bg-[#F1F1F1] pl-12 pt-5 pb-5 pr-10 rounded-2xl">
+              <img src="/images/jacket-3.png" alt="" />
+            </div>
+            <h4 class="text-2xl">Woman Leather Jacket</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the <br />
+              printing and typesetting industry.
+            </p>
+            <div class="flex items-center gap-20">
+              <h3 class="text-orange-500 text-4xl font-black">$234</h3>
+              <!--very bold and heavy font weight, indicated by "font-black" 
+          -->
+              <button
+                class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-3.5 
+          px-5 rounded-xl text-white mt-3 flex"
+              >
+                BUY NOW
+              </button>
+            </div>
+          </div>        
+        </div>
+      </section>
+
+    <section class="py-20 pl-14">
+        <h3 class="text-5xl font-bebas">WOMAN JACKET</h3>
+        <div class="flex gap-20 mt-5">
+          <!-- Jacket 1 -->
+          <div class="w-80  bg-slate-400 rounded-2xl">
+            <div class="bg-[#F1F1F1] pl-12 pt-5 pb-5 pr-10 rounded-2xl">
+              <img src="/images/jacket-4.png" alt="" />
+            </div>
+            <h4 class="text-2xl">Snowboard Jacket Mens</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the <br />
+              printing and typesetting industry.
+            </p>
+
+            <div class="flex items-center gap-20">
+              <h3 class="text-orange-500 text-4xl font-black">$234</h3>
+              <!--very bold and heavy font weight, indicated by "font-black" -->
+              <button
+                class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-3.5 px-5 rounded-xl text-white mt-3 flex"
+              >
+                BUY NOW
+              </button>
+            </div>
+          </div>
+
+
+          <!-- 2 jacket -->
+          <div class="w-80  bg-slate-400 rounded-2xl">
+            <div class="bg-[#F1F1F1] pl-12 pt-5 pb-5 pr-10 rounded-2xl">
+              <img src="/images/jacket-5.png" alt="" />
+            </div>
+            <h4 class="text-2xl">Man Leather Jackets</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the <br />
+              printing and typesetting industry.
+            </p>
+            <div class="flex items-center gap-20">
+              <h3 class="text-orange-500 text-4xl font-black">$234</h3>
+              <!--very bold and heavy font weight, indicated by "font-black" 
+          -->
+              <button
+                class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-3.5 
+          px-5 rounded-xl text-white mt-3 flex"
+              >
+                BUY NOW
+              </button>
+            </div>
+          </div>
+
+
+          <!-- 3 jacket -->
+
+          <div class="w-80  bg-slate-400 rounded-2xl">
+            <div class="bg-[#F1F1F1] pl-12 pt-5 pb-5 pr-10 rounded-2xl">
+              <img src="/images/jacket-6.png" alt="" />
+            </div>
+            <h4 class="text-2xl">Man Casual Jacket</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the <br />
+              printing and typesetting industry.
+            </p>
+            <div class="flex items-center gap-20">
+              <h3 class="text-orange-500 text-4xl font-black">$234</h3>
+              <!--very bold and heavy font weight, indicated by "font-black" 
+          -->
+              <button
+                class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-3.5 
+          px-5 rounded-xl text-white mt-3 flex"
+              >
+                BUY NOW
+              </button>
+            </div>
+          </div>
+        
+        
+    </section>
+
+    <section class="bg-orange-200 pb-20 pl-20 flex gap-20">
+        <div class="gap-x-10 items-center pt-6">
+            <div class="bg-cyan-600 flex justify-center items-center pb-10 pt-10 gap-5 mb-5">
+                <div>
+                    <img src="/icons/house.png" alt="" width="78px" height="78px">
+                </div>
+                <div>
+                    <h4 class="text-2xl">Find the Perfect Fit</h4>
+                    <p>Everybody is different, which is why we <br>
+                    offer styles for every body.</p>
+                </div>
+            </div>
+            
+            <div class=" bg-cyan-900 flex justify-center items-center pt-10 pb-10 gap-5">
+                <div>
+                    <img src="/icons/box.png" alt="" width="78px" height="78px">
+                </div>
+                <div>
+                    <h4 class="text-2xl">Find the Perfect Fit</h4>
+                    <p>Everybody is different, which is why we <br>
+                    offer styles for every body.</p>
+                </div>
+            </div>
+
+            <div class=" bg-cyan-600 flex justify-center items-center pb-10 pt-10 mt-5">
+                <div>
+                    <img src="/icons/question.png" alt="" width="78px" height="78px">
+                </div>
+                <div>
+                    <h4 class="text-2xl">Find the Perfect Fit</h4>
+                    <p>Everybody is different, which is why we <br>
+                    offer styles for every body.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex items-center">
+            <img src="images/shopping.png" alt="" width="640px" height="540">
+        </div>
+    </section>
+
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
